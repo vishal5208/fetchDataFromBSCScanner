@@ -5,4 +5,4 @@ The fetchTransactionCount.js script reads the BSC addresses from the Addresses.t
 The fetchBalances.js script reads the BSC addresses from the Addresses.txt file and fetches the balance for each address using the BSC API. It makes an API call for each address with a delay of 200 milliseconds between calls to avoid rate-limiting. The script uses fs.readFileSync to read the addresses from the Addresses.txt file and split them into an array. It then loops through the array of addresses and calls the BSC API for each address with a delay between calls. The balance for each address is written to the console.
 
 Here is an example of the output without any conditions:
-![Output Image](../images/output.png)
+![Output Image](./images/output.png)
